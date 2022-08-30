@@ -1,0 +1,162 @@
+.main {
+  height: 100vh;
+  width: 100vw;
+}
+
+.add {
+  background-color: orange;
+  background-image: -webkit-linear-gradient(
+    75deg,
+    orange 50%,
+    rgb(248, 177, 45) 50%
+  );
+  border: orange;
+}
+
+
+.row {
+  border-spacing: 40px;
+  border-collapse: separate;
+  border-radius: 10px;
+  border-radius: 20px;
+  border: 1px solid rgba(240, 145, 44, 0.34);
+  border-top: none;
+  border-left: none;
+  border-right: none;
+}
+
+.check {
+  background-color: orange;
+  outline: none;
+  border: 2px;
+  border-color: red;
+}
+
+.bord {
+  border:  1px solid orange;
+  border-bottom: none;
+  border-left: none;
+  border-right: none;
+}
+
+.head {
+  border: 1px solid rgba(240, 145, 44, 0.34);
+  border-left: none;
+  border-right: none;
+  border-top: none;
+}
+
+.managemenu_body {
+  height: 89.5%;
+}
+
+
+.sidebar{
+  height: 60%;
+  
+}
+
+.header {
+  height: 10%;
+  box-shadow: 0px 2px 20px rgba(9, 3, 3, 0.09);
+  margin-bottom: 0.5%;
+}
+
+.table_div {
+  height: 74%;
+}
+
+.for {
+  height: 85%;
+}
+
+.field {
+  height: 55%;
+}
+
+.table_cat {
+  height: 95%;
+}
+
+.rotateAnimation {
+  transition: 1000ms ease-in-out;
+  transform: rotate(540deg);
+}
+
+.headerShadow {
+  box-shadow: 0px 0px 0px 20px rgba(0, 0, 0, 0.09);
+  -moz-box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.09);
+  -webkit-box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.09);
+}
+
+.headerBorder {
+  opacity: 0.32;
+  border-bottom: 2px solid rgba(240, 145, 44, 0.5);
+}
+
+.side-bar {
+
+  ::-webkit-scrollbar {
+    display:  none;
+  }
+  transition: all 0.5s ease 0s;
+  -webkit-transition: all 0.5s ease 0s;
+  &.is-open {
+      @apply -translate-x-full lg:translate-x-0 lg:w-20;
+  }
+  @apply fixed inset-y-0 z-10 flex flex-col flex-shrink-0 w-20 lg:w-56 max-h-screen overflow-hidden transition-all transform  bg-white  shadow-lg lg:z-auto lg:static lg:shadow-none;
+  .header-logo {
+      @apply flex items-center justify-center flex-shrink-0 p-2 mt-4;
+      .toggle-icon {
+          @apply w-6 h-6 ;
+      }
+  }
+  .silder-links {
+      @apply flex-1 px-2 pt-1 pb-4 space-y-2 overflow-y-hidden ;
+      &:hover {
+          overflow-y: auto;
+      }
+      a {
+          @apply flex items-center text-black transition-colors rounded-md;
+          .name{
+              @apply ml-4 text-lg;
+          }
+       &.active{
+          background-color: #272727;
+       }
+      }
+      .icon {
+          @apply w-5 h-5;
+      }
+      .arrow {
+          @apply w-4 h-4 transition-transform transform;
+      }
+      .arrow-open {
+          @apply rotate-180;
+      }
+      .sub-list {
+          @apply mt-2 space-y-2 px-7;
+          a {
+              @apply block p-2 text-base text-black transition-colors duration-200 rounded-md;
+          }
+      }
+  }
+  .sidebar-footer {
+      @apply hidden flex-shrink-0 p-2 absolute bottom-0 bg-white w-full border-t h-16 lg:flex justify-center;
+  }
+}
+
+.subname-active{
+  background-color: #F7BF41;
+}
+
+.submenu{
+  padding: 1px 5px;
+  margin: 3px 0px;
+}
+.sub-menu-sec{
+  padding-bottom: 2px;
+}
+
+
+

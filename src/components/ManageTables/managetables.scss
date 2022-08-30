@@ -1,0 +1,53 @@
+.unOccupiedGradient {
+  background: linear-gradient(90deg, #ffbe15 7.22%, #f38b1c 89.58%);
+  border-radius: 10px;
+}
+
+.occupiedGradient {
+  background: linear-gradient(164.27deg, #a7a7a7 -5.03%, #bbbbbb 85.91%);
+  border-radius: 10px;
+}
+
+
+.add{
+  background-color: orange;
+  background-image: -webkit-linear-gradient(60deg, orange 50%, rgb(248, 177, 45) 50%);
+  border: orange;
+  border-radius: 8px;
+  margin-bottom: 2px;
+
+}
+
+.box{
+  box-shadow: 0px 5px 25px rgba(241, 126, 1, 0.05), 0px 3px 13.8989px rgba(241, 126, 1, 0.04);
+}
+
+.val{
+  background-image: url(../../Images/Layerbg.png);
+  opacity: 0.3;
+}
+
+
+.one{
+  background: #E5EFFA;
+  border: 1px solid #ADD1F8;
+}
+
+.two{
+  background: #FCEDEA;
+  border: 1px solid #FEA6A6;
+}
+
+.three{
+  background: #FEF7EA;
+border: 1px solid #F0C370;
+}
+
+.four{
+  background: #EBF7EE;
+border: 1px solid #8FE9A3;
+}
+
+.pag{
+  height: 53em;
+}

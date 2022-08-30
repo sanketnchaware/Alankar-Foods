@@ -1,0 +1,39 @@
+.breakfast{
+    background-image:
+    url('../../Images/breakfast.png');
+    background-repeat: no-repeat;
+    border-radius: 15px;
+    background-size: cover;
+    filter: blur(2px);
+}
+
+.lunch{
+    background-image:
+    url('../../Images/lunch.png');
+    background-repeat: no-repeat;
+    border-radius: 15px;
+    background-size: cover;
+    filter: blur(2px);
+}
+
+
+.dinner{
+    background-image:
+    url('../../Images/dinner.png');
+    background-repeat: no-repeat;
+    border-radius: 15px;
+    background-size: cover;
+    filter: blur(2px);
+   
+}
+
+.bord{
+    border: 1px solid  #D9D9D9;;
+    border-bottom: none;
+    border-left: none;
+    border-right: none;
+}
+
+.bgg{
+    background-color: #FFC88E;
+}

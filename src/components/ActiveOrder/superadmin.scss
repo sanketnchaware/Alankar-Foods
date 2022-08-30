@@ -1,0 +1,91 @@
+.Border {
+  opacity: 0.32;
+  border: 2px solid rgba(240, 145, 44, 0.5);
+}
+
+.Btn {
+  background: linear-gradient(219.04deg, #ffbe15 7.22%, #f38b1c 89.58%);
+  border-radius: 11px;
+}
+
+.pagination {
+  background: linear-gradient(219.04deg, #ffbe15 7.22%, #f38b1c 89.58%);
+}
+
+.Bg {
+  background: rgba(245, 245, 245, 0.94);
+}
+
+.tableBorder {
+  border-bottom: 2px solid rgba(240, 145, 44, 0.34);
+}
+
+
+.out{
+  background: rgba(79, 162, 57, 0.49);
+}
+
+.circle{
+  background: rgba(255, 187, 16, 0.38);
+}
+
+.in{
+  background: #4FA239;
+}
+.circle-in{
+  background: #FFBB10;
+}
+
+//DetailOrder.jsx
+.nav-menu {
+  position: fixed;
+  top: 0;
+  right: -100%;
+  transition: 2000ms;
+}
+
+.nav-menu.active {
+  right: 0;
+  transition: 650ms;
+}
+
+.bgGray {
+  background: #c4c4c4 40%;
+}
+
+.grayBackground {
+  background: linear-gradient(164.27deg, #a7a7a7 -5.03%, #bbbbbb 85.91%);
+  border-radius: 11px;
+}
+
+.outle{
+  box-shadow: 0px 5px 25px rgba(241, 126, 1, 0.05), 0px 3px 13.8989px rgba(241, 126, 1, 0.04);
+}
+
+.one{
+  background: #E5EFFA;
+  border: 1px solid #ADD1F8;
+}
+
+.two{
+  background: #FCEDEA;
+  border: 1px solid #FEA6A6;
+}
+
+.three{
+  background: #FEF7EA;
+border: 1px solid #F0C370;
+}
+
+.four{
+  background: #EBF7EE;
+border: 1px solid #8FE9A3;
+}
+
+
+.bord {
+  border:  1px solid orange;
+  border-bottom: none;
+  border-left: none;
+  border-right: none;
+}

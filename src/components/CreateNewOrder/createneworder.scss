@@ -1,0 +1,44 @@
+.Bg {
+  background: rgba(245, 245, 245, 0.94);
+}
+.grayBackground {
+  background: linear-gradient(164.27deg, #a7a7a7 -5.03%, #bbbbbb 85.91%);
+  border-radius: 11px;
+}
+
+// CustomerDetails.jsx
+
+.orangeBackground {
+  background: linear-gradient(219.04deg, #ffbe15 7.22%, #f38b1c 89.58%);
+  border-radius: 11px;
+}
+
+.formContainer {
+  display: grid;
+  grid-template-columns: 50% 50%;
+}
+
+
+
+.searchGrid {
+  display: grid;
+  grid-template-columns: 90% 10%;
+}
+
+.add{
+  background-color: orange;
+  background-image: -webkit-linear-gradient(75deg, orange 50%, rgb(248, 177, 45) 50%);
+  border: orange;
+  border-radius: 8px;
+  margin-bottom: 2px;
+
+}
+
+
+.button{
+  background-color: white;
+  background-image: -webkit-linear-gradient(74deg, gray 28.4% ,rgba(100, 95, 95, 0.16) );
+  border: white;
+  border-radius: 8px;
+
+}

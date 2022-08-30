@@ -1,0 +1,272 @@
+.main{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+}
+
+.add{
+    background-color: orange;
+    background-image: -webkit-linear-gradient(75deg, orange 50%, rgb(248, 177, 45) 50%);
+    border: orange;
+    border-radius: 8px;
+    margin-bottom: 2px;
+
+}
+
+.mgmenu{
+  box-shadow: 0px 5px 25px rgba(241, 126, 1, 0.05), 0px 3px 13.8989px rgba(241, 126, 1, 0.04);
+  border-radius: 10px;
+  
+}
+
+
+
+.row{
+   border-spacing: 40px;
+   border-collapse: separate;
+   border-radius: 10px;
+   border-radius: 20px;
+   border: 1px solid rgba(240, 145, 44, 0.34);
+   border-top: none;
+   border-left: none;
+   border-right: none;
+}
+
+
+
+.bord{
+    border: 1px solid rgba(240, 145, 44, 0.34);
+    border-bottom: none;
+    border-left: none;
+    border-right: none;
+}
+
+.head{
+    border: 1px solid rgba(240, 145, 44, 0.34);
+    border-left: none;
+    border-right: none;
+    border-top: none;
+}
+
+
+.adding{
+    background-color: white;
+    background-image: -webkit-linear-gradient(74deg, gray 28.4% ,rgba(100, 95, 95, 0.16) );
+    border: white;
+    border-radius: 8px;
+    margin-bottom: 2px;
+}
+
+body.swal2-shown > [aria-hidden="true"] {
+    transition: 0.1s filter;
+    filter: blur(5px);
+}
+
+.update:focus{
+    background-color: orange;
+    background-image: -webkit-linear-gradient(75deg, orange 50%, rgb(248, 177, 45) 50%);
+    border: orange;
+    border-radius: 4px;
+    margin-bottom: 2px; 
+}
+
+.box{
+    box-shadow: 0px 5px 25px rgba(241, 126, 1, 0.05), 0px 3px 13.8989px rgba(241, 126, 1, 0.04);
+border-radius: 10px;
+}
+
+input[type="file"]{
+  position: absolute;
+  transform: scale(3);
+  opacity: 0;
+  cursor: pointer;
+  height: 50px;
+  width: 50px;
+}
+
+
+
+
+//code for checkbox stylings
+
+*, *:before, *:after {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  
+  
+  
+  .form-group {
+    display: block;
+    margin-bottom: 15px;
+  }
+  
+  .form-group input {
+    padding: 0;
+    height: initial;
+    width: initial;
+    margin-bottom: 0;
+    display: none;
+    cursor: pointer;
+  }
+  
+  .form-group label {
+    position: relative;
+    cursor: pointer;
+  }
+  
+  .form-group label:before {
+    content:'';
+    -webkit-appearance: none;
+    background-color: transparent;
+    border: 1px solid 	#ffa366;
+    border-radius: 4px;
+    background-color: rgb(251, 240, 226);
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05), inset 0px -15px 10px -12px rgba(0, 0, 0, 0.05);
+    padding: 10px;
+    display: inline-block;
+    position: relative;
+    vertical-align: middle;
+    cursor: pointer;
+    margin-right: 5px;
+  }
+  
+  .form-group input:checked + label:after {
+    content: '';
+    display: block;
+    position: absolute;
+    top: 2px;
+    left: 9px;
+    width: 6px;
+    height: 14px;
+    border: solid 	#f4c3a2;
+    background-color: rgb(251, 240, 226);
+    border-radius: 4px;
+    border-width: 0 2px 2px 0;
+    transform: rotate(45deg);
+  }
+
+  
+
+.wrg-toggle {
+  touch-action: pan-x;
+  display: inline-block;
+  position: relative;
+  cursor: pointer;
+  background-color: transparent;
+  border: 0;
+  padding: 0;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  -webkit-tap-highlight-color: rgba(0,0,0,0);
+  -webkit-tap-highlight-color: transparent;
+}
+
+.wrg-toggle-input {
+  border: 0;
+  clip: rect(0 0 0 0);
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  width: 1px;
+}
+
+.wrg-toggle-check, .wrg-toggle-uncheck {
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  top: 0;
+  bottom: 0;
+  margin-top: auto;
+  margin-bottom: auto;
+  line-height: 0;
+  opacity: 0;
+  transition: opacity .25s ease;
+}
+.wrg-toggle-check {
+  left: 8px;
+}
+.wrg-toggle-uncheck {
+  opacity: 1;
+  right: 10px;
+  
+}
+
+.wrg-toggle-uncheck span, 
+.wrg-toggle-check span {
+  align-items: center;
+  display: flex;
+  height: 10px;
+  justify-content: center;
+  position: relative;
+  width: 10px;
+}
+
+.wrg-toggle-container{
+  width: 48px;
+  height: 24px;
+  padding: 0;
+  border-radius: 30px;
+  /* background-color: #4d4d4d; */
+ 
+  transition: all .2s ease;
+}
+.orange_border{
+  border : 1px solid #F4901C;
+}
+.gray_border{
+  border : 1px solid gray;
+}
+
+.wrg-toggle-circle{
+  /* transition: all .5s cubic-bezier(.23,1,.32,1) 0ms; */
+  position: absolute;
+  top: 2px;
+  left: 1px;
+  right : 1px;
+  width: 22px;
+  height: 22px; 
+  border-radius: 50%;
+  box-sizing: border-box;
+  transition: all .25s ease;
+}
+
+.bg-orange{
+  background-color: #F4901C ;
+}
+.bg-gray{
+  background-color: gray ;
+}
+
+.wrg-toggle--checked .wrg-toggle-check{
+  opacity: 1;
+
+}
+.wrg-toggle--checked .wrg-toggle-uncheck {
+  opacity: 0;
+}
+.wrg-toggle--checked .wrg-toggle-circle {
+  left: 27px;
+}
+
+.wrg-toggle--disabled {
+  cursor: not-allowed;
+  opacity: 0.5;
+  -webkit-transition: opacity 0.25s;
+  transition: opacity 0.25s;
+}
+
+
+
+
+
+
+

@@ -1,0 +1,44 @@
+
+
+.add{
+    background-color: orange;
+    background-image: -webkit-linear-gradient(75deg, orange 50%, rgb(248, 177, 45) 50%);
+    border: orange;
+    border-radius: 8px;
+    
+
+}
+
+.row{
+   border-spacing: 40px;
+   border-collapse: separate;
+   border-radius: 10px;
+   border-radius: 20px;
+   border: 1px solid rgba(240, 145, 44, 0.34);
+   border-top: none;
+   border-left: none;
+   border-right: none;
+}
+
+
+.bord{
+    border: 1px solid rgba(240, 145, 44, 0.34);
+    border-bottom: none;
+    border-left: none;
+    border-right: none;
+}
+
+
+.mal:focus-within{
+    border: 2px solid orange;
+}
+
+.sweetalert_title{
+    color: red;
+    font-family: Verdana, Geneva, Tahoma, sans-serif
+}
+
+.mgcat{
+    height: 42em;
+}
+

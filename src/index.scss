@@ -1,0 +1,136 @@
+@import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@200;300;400;600;700;900&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+#toggle_switch::after {
+  content: "";
+  @apply h-4 w-4 mt-0.5 ml-6 rounded-full bg-orange  absolute left-0 top-0 transform scale-110 transition duration-200;
+}
+
+#toggle_switch:checked::after {
+  @apply transform scale-110 -translate-x-5 bg-gray-400 border-2 border-gray-400;
+}
+
+@font-face {
+  font-family: "DS-digital";
+  src: url("./Fonts/DS-digital/DS-DIGIB.TTF") format("truetype");
+  font-weight: 600;
+}
+
+.digitalFont {
+  font-family: "DS-digital";
+}
+@layer base {
+  html {
+    font-family: "Source Sans Pro";
+    -moz-osx-font-smoothing: "Source Sans Pro";
+    -webkit-font-smoothing: "Source Sans Pro";
+  }
+}
+
+.confirm_btn {
+  background-color: orange !important;
+  background-image: -webkit-linear-gradient(
+    75deg,
+    orange 50%,
+    rgb(248, 177, 45) 50%
+  ) !important;
+  border: 1px solid orange !important;
+  width: 130px !important;
+}
+
+.cancel_btn {
+  background-color: white !important;
+  border: 1px solid orange !important;
+  width: 130px !important;
+  color: orange !important;
+}
+
+.tit {
+  color: red !important;
+}
+
+
+
+@layer components {
+  .btn {
+    @apply pl-4 pr-4 pt-4 pb-4 font-sans text-center text-white text-base  rounded-lg font-semibold bg-orange;
+    background-image: -webkit-linear-gradient(
+      75deg,
+      orange 50%,
+      rgb(248, 177, 45) 50%
+    ) !important;
+  }
+
+  .textfield {
+    @apply font-sans  text-base outline-none pt-3 pb-4 pl-4 w-10/12 pr-10 rounded-lg font-semibold bg-search placeholder:text-darkyellow placeholder:font-semibold focus:ring-1 ring-button_border;
+  }
+
+  .base-text-error {
+    @apply relative  text-sm text-red-500;
+  }
+
+  .searchfield {
+    @apply font-sans text-orange text-base outline-none pt-4 pb-4 pl-4 rounded-lg font-semibold bg-search placeholder-orange;
+  }
+
+}
+
+.nam{
+  text-align: left;
+  margin-top: 80px;
+}
+
+
+.name{
+  display: flex;
+  justify-content: space-between;
+  margin-right: 50px;
+  margin-top: 10px;
+}
+
+.fieldn{
+  width: 200px;
+  text-align: left;
+}
+
+.fieldp{
+  width: 200px; 
+  text-align: left;
+}
+
+.value{
+  display: flex !important;
+  margin: auto !important;
+  gap:20px !important;
+  margin-left: 120px !important;
+}
+
+.swal2-select{
+  margin-left: 10px !important;
+}
+
+.fir{
+  text-align: left !important;
+}
+
+.is-active{
+  background-color: orange !important;
+}
+
+.iframe-adjust{
+  aspect-ratio: 0.5;
+  border:  1px solid red;
+  width: 500px;
+  height: auto;
+  overflow: hidden;
+
+  
+}
+
+// *{
+//   border: 2px solid red;
+// }
+

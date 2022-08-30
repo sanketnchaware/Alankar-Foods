@@ -1,0 +1,15 @@
+
+.add{
+    background-color: orange;
+     background-image: -webkit-linear-gradient(75deg, orange 50%, rgb(248, 177, 45) 50%);
+    background-image: -moz-linear-gradient(75deg, orange 50%, rgb(248, 177, 45) 50%);
+    border: orange;
+    border-radius: 8px;
+}
+
+.bord{
+    border: 1px solid rgba(240, 145, 44, 0.34);
+    border-bottom: none;
+    border-left: none;
+    border-right: none;
+}

@@ -1,0 +1,26 @@
+body.swal2-shown > [aria-hidden="true"] {
+  transition: 0.1s filter;
+  filter: blur(5px);
+}
+
+.swal2-popup {
+  width: 730px;
+  height: 416px;
+}
+.swal2-btn {
+  border-radius: 20px;
+}
+
+.val{
+  background-image: url(../../Images/Layerbg.png);
+  opacity: 0.3;
+}
+
+
+
+
+
+
+
+
+

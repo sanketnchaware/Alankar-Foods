@@ -1,0 +1,31 @@
+.Bg {
+  background: rgba(245, 245, 245, 0.94);
+}
+.grayBackground {
+  background: linear-gradient(164.27deg, #a7a7a7 -5.03%, #bbbbbb 85.91%);
+  border-radius: 11px;
+}
+
+// CustomerDetails.jsx
+
+.orangeBackground {
+  background: linear-gradient(219.04deg, #ffbe15 7.22%, #f38b1c 89.58%);
+  border-radius: 11px;
+}
+
+.formContainer {
+  display: grid;
+  grid-template-columns: 50% 50%;
+}
+
+//AddItems.jsx
+.addItemsContainer {
+  display: grid;
+  grid-template-columns: 55% 40%;
+  column-gap: 2%;
+}
+
+.searchGrid {
+  display: grid;
+  grid-template-columns: 90% 10%;
+}
